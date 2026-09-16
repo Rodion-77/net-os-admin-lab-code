@@ -1,31 +1,93 @@
 ---
+# Preamble
+
 author:
   name: Павличенко Родион Андреевич
   email: 1132246838@rudn.ru
   affiliation:
     - name: Российский университет дружбы народов им. Патриса Лумумбы
-title: "Лабораторная работа № 8"
-subtitle: "Администрирование сетевых подсистем — НПИбд-02-24"
+      country: Российская Федерация
+      postal-code: 117198
+      city: Москва
+      address: ул. Миклухо-Маклая, д. 6
+
+title: Лабораторная работа № 8
+subtitle: Администрирование сетевых подсистем
+license: CC BY
 date: today
-date-format: "YYYY-MM-DD"
+
+lang: ru-RU
+crossref:
+  lof-title: Список иллюстраций
+  lot-title: Список таблиц
+  lol-title: Листинги
+
+format:
+  beamer:
+    pdf-engine: xelatex
+    mainfont: "DejaVu Serif"
+    sansfont: "DejaVu Sans"
+    monofont: "DejaVu Sans Mono"
+    toc: true
+    toc-title: Содержание
+    number-sections: true
+    colorlinks: false
+    toc-depth: 2
+    slide_level: 2
+    aspectratio: 169
+    section-titles: true
+    theme: metropolis
+    themeoptions: progressbar=frametitle,sectionpage=progressbar,numbering=fraction
+    babel-lang: russian
+    babel-otherlangs: english
+  revealjs:
+    transition: slide
+    margin: 0.2
+    smaller: false
+    output-ext: html
+    theme: beige
+    logo: _resources/image/logo_rudn.png
 ---
+
+# Информация
+
+## Докладчик
+
+:::::::::::::: {.columns align=center}
+::: {.column width="70%"}
+
+* Павличенко Родион Андреевич
+* Студент
+* Группа НПИбд-02-24
+* Российский университет дружбы народов им. Патриса Лумумбы
+* [1132246838@rudn.ru](mailto:1132246838@rudn.ru)
+
+:::
+::: {.column width="30%"}
+
+:::
+::::::::::::::
 
 # Цель работы
 
+## Цель работы
+
 Укажите цель лабораторной работы.
 
-# Задание
+# Выполнение лабораторной работы
 
-Укажите основные задачи.
+## Этап выполнения работы
 
-# Выполнение работы
-
-Добавьте основные этапы и иллюстрации.
+Кратко опишите выполненное действие.
 
 # Результаты
 
-Покажите полученные результаты.
+## Полученные результаты
+
+Покажите основные результаты работы.
 
 # Выводы
 
-Сформулируйте выводы.
+## Выводы
+
+Сформулируйте выводы в соответствии с целью работы.

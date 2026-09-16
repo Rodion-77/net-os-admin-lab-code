@@ -1,7 +1,2 @@
-_output/
-*.aux
-*.log
-*.nav
-*.out
-*.snm
-*.toc
+/.quarto/
+/_presentation/

@@ -1,5 +1,2 @@
-_output/
-*.aux
-*.log
-*.out
-*.toc
+/.quarto/
+/_report/

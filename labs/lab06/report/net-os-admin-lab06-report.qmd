@@ -1,36 +1,92 @@
 ---
+# Preamble
+
+## Author
 author:
   name: Павличенко Родион Андреевич
   email: 1132246838@rudn.ru
   affiliation:
     - name: Российский университет дружбы народов им. Патриса Лумумбы
-      city: Москва
       country: Российская Федерация
-title: "Отчёт по лабораторной работе № 6"
-subtitle: "Группа НПИбд-02-24"
-license: CC BY
-date: today
-date-format: "YYYY-MM-DD"
+      postal-code: 117198
+      city: Москва
+      address: ул. Миклухо-Маклая, д. 6
+## Title
+title: "Лабораторная работа № 6"
+subtitle: "Администрирование сетевых подсистем"
+license: "CC BY"
+## Generic options
+lang: ru-RU
+number-sections: true
+toc: true
+toc-title: "Содержание"
+toc-depth: 2
+## Crossref customization
+crossref:
+  lof-title: "Список иллюстраций"
+  lot-title: "Список таблиц"
+  lol-title: "Листинги"
+## Bibliography
+bibliography:
+  - bib/cite.bib
+csl: _resources/csl/gost-r-7-0-5-2008-numeric.csl
+## Formats
+format:
+### Pdf output format
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: false
+    toc-depth: 2
+    lof: true
+    lot: true
+    documentclass: scrreprt
+    papersize: a4
+    fontsize: 12pt
+    linestretch: 1.5
+    babel-lang: russian
+    babel-otherlangs: english
+    cite-method: biblatex
+    biblio-style: gost-numeric
+    biblatexoptions:
+      - backend=biber
+      - langhook=extras
+      - autolang=other*
+    csquotes: true
+    indent: true
+    header-includes: |
+      \usepackage{indentfirst}
+      \usepackage{float}
+      \floatplacement{figure}{H}
+      \usepackage[math,RM={Scale=0.94},SS={Scale=0.94},SScon={Scale=0.94},TT={Scale=MatchLowercase,FakeStretch=0.9},DefaultFeatures={Ligatures=Common}]{plex-otf}
+### Docx output format
+  docx:
+    toc: true
+    number-sections: true
+    toc-depth: 2
 ---
 
 # Цель работы
 
 Укажите цель лабораторной работы.
 
-# Задание
+# Выполнение лабораторной работы
 
-Укажите задание лабораторной работы.
+Опишите выполненные действия. После каждого пояснения разместите соответствующий рисунок.
 
-# Теоретические сведения
+# Домашнее задание
 
-Добавьте необходимые теоретические сведения.
+Выполните домашнее задание, если оно предусмотрено методическими указаниями.
 
-# Выполнение работы
+# Контрольные вопросы
 
-## Этап 1
-
-Опишите выполненные действия и добавьте скриншоты.
+Приведите ответы на контрольные вопросы, если они предусмотрены заданием.
 
 # Выводы
 
-Сформулируйте выводы по результатам работы.
+Сформулируйте выводы в соответствии с целью работы.
+
+# Список литературы{.unnumbered}
+
+::: {#refs}
+:::

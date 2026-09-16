@@ -1,7 +1,8 @@
-.PHONY: all clean
-
 all:
-	quarto render
+	-@quarto render
 
 clean:
-	rm -rf _output
+	-rm -rf _report
+
+cleanall: clean
+	-rm -rf .quarto
